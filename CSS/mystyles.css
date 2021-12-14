@@ -1,0 +1,93 @@
+/*---Jonathan Ebert - Last Edited Dec. 13, 2021 */
+mystyles.css
+
+/*POSITIONING*/
+.lists-text-left {
+    list-style-position: left;
+}
+.lists-text-center {
+    text-align: center;
+}
+.contact-info {
+    content: "Contact Info: ";
+}
+
+.img-right {
+    position:relative;
+    float: right;
+    height: 500px;
+    border-radius:25px;
+    
+}
+.section-heading {
+  text-transform: uppercase;
+}
+.section-heading .section-heading-upper {
+  display: block;
+  font-size: 1rem;
+  font-weight: 800;
+}
+.section-heading .section-heading-lower {
+  display: block;
+  font-size: 3rem;
+  font-weight: 100;
+}
+
+.video-right {
+    width: 25%;
+    height: auto;
+    float: right;
+    padding-right: 350px;
+
+}
+
+/*FONTS*/
+
+.tableau-font {
+    background-color: darkgrey;
+    font-weight: 300; 
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 25px;
+}
+
+.btn-primary:hover {
+  color: #000;
+  background-color: darkgrey;
+  border-color: orangered;
+}
+
+.text-primary {
+  --bs-text-opacity: 1;
+  color: orangered;
+  border-style: solid;
+  border-color: white;
+  border-width: thick;
+}
+
+.page-link:hover {
+  z-index: 2;
+  color: orangered;
+  background-color: #e9ecef;
+  border-color: #dee2e6;
+}
+
+.text-primary {
+  --bs-text-opacity: 1;
+  color: orangered;
+  border-style: solid;
+  border-color: white;
+  border-width: thick;
+}
+
+.hover-red:hover {
+    color: orangered;
+}
+
+.a-hp {
+color: orangered;
+}
+
+.a-rp {
+    color: black;
+}
